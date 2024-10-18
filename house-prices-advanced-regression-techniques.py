@@ -44,7 +44,7 @@ with tab1:
 
     #Carregamento e Visualização dos Dados
     st.subheader("Visualização dos Dados de Treinamento")
-    df_train = pd.read_csv("/mnt/c/Users/jrfer/Documents/repositorio/projeto_01/Dados/train.csv")
+    df_train = pd.read_csv("Dados/train.csv")
     st.write(df_train.head(5))
     st.caption("(Tabela 1: Exibição das primeiras 5 linhas dos dados brutos, sem pré-processamento)")
 
